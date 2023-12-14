@@ -52,6 +52,8 @@ const MessageCongratulation = () => {
           ...childSnapshot.val(),
         });
       });
+      newData.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+
       setMessageArray(newData);
     });
 
