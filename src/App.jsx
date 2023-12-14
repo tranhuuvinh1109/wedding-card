@@ -12,6 +12,7 @@ function App() {
         <Address />
         <MusicPlayer />
         <MessageCongratulation />
+        <div className="h-24"></div>
       </div>
     </div>
   );
