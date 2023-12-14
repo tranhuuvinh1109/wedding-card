@@ -17,8 +17,8 @@ const MusicPlayer = () => {
   };
 
   return (
-    <div className="fixed bottom-10 left-10 ">
-      <button className="p-4 bg-primary rounded-full hover:text-content-supper text-white" onClick={togglePlay}>
+    <div className="fixed bottom-20 left-20 ">
+      <button className="p-6 bg-primary rounded-full hover:text-content-supper text-white" onClick={togglePlay}>
         {isPlaying ? <FaPause fontSize={24} /> : <FaPlay fontSize={24} />}
       </button>
     </div>
