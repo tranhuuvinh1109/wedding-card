@@ -20,7 +20,6 @@ const Poster = () => {
           </div>
         </div>
         <div className="w-[74px] h-[74px] bg-pink-600 rounded-full flex justify-center items-center  font-semibold ml-4">
-          {' '}
           <div className="text-center">
             <h1 className="m-0 text-lg">{countdown.split(':')[2]}</h1>
             <h2 className="m-0 text-sm">Minutes</h2>

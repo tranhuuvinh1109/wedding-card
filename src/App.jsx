@@ -1,14 +1,17 @@
 import './App.css';
-import { Address, Message, Poster, Time } from './components';
-
+import { Address, Message, MessageCongratulation, MusicPlayer, Poster, Time } from './components';
+import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <div>
+      <Toaster position="top-center" reverseOrder={false} />
       <div className="w-[800px] mx-auto bg-content">
         <Poster />
         <Time />
         <Message />
         <Address />
+        <MusicPlayer />
+        <MessageCongratulation />
       </div>
     </div>
   );

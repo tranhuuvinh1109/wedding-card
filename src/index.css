@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Gochi+Hand&family=Oleo+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Sacramento&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Oleo+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Sacramento&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Berkshire+Swash&family=Gochi+Hand&family=Oleo+Script&family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Sacramento&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Berkshire+Swash&family=Dancing+Script&family=Gochi+Hand&family=Oleo+Script&family=Permanent+Marker&family=Playpen+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Sacramento&family=Satisfy&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +8,22 @@
   /* font-family: 'Sacramento', Arial, serif; */
   font-weight: 400;
   background: #ccc;
+}
+
+.bg-primary {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
