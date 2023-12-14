@@ -1,5 +1,5 @@
 import './App.css';
-import { Address, Message, MessageCongratulation, MusicPlayer, Poster, Time } from './components';
+import { Address, Album, Message, MessageCongratulation, MusicPlayer, Poster, Time } from './components';
 import { Toaster } from 'react-hot-toast';
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Address />
         <MusicPlayer />
         <MessageCongratulation />
+        <Album />
         <div className="h-24"></div>
       </div>
     </div>

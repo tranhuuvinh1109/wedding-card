@@ -5,7 +5,7 @@ const Address = () => {
       <div className="p-2">
         <div className="flex bg-white p-4 rounded-md mb-4">
           <img
-            src="https://cuoihoitrongoivenus.com/wp-content/uploads/2021/04/168394318_2845507532328227_4193208939669722502_n.jpg"
+            src="https://drive.google.com/uc?id=1Kmvr7V9iPPeanwe1ousQBkPeTSf2W8-2"
             alt="male"
             className="w-[250px] h-[250px] object-cover rounded-md"
           />
@@ -17,7 +17,7 @@ const Address = () => {
         </div>
         <div className="flex bg-white p-4 rounded-md">
           <img
-            src="https://weddingwonders.vn/wp-content/uploads/2021/06/Moments-tiec-cuoi-Giau-Phong-Tiec-cuoi-ngoai-troi-Wedding-Wonders-Viet-Nam-3.jpg"
+            src="https://drive.google.com/uc?id=1ILnQ2fbCAcT91zcwGBVEyvjrdiwsbiUm"
             alt="male"
             className="w-[250px] h-[250px] object-cover rounded-md"
           />

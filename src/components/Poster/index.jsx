@@ -58,7 +58,13 @@ const Poster = () => {
 
   return (
     <div className="overflow-hidden  relative text-white text-center">
-      <img src="https://demos.freehtml5.co/wedding/images/img_bg_2.jpg" alt="wedding" className="w-full" />
+      <img
+        src={
+          'https://firebasestorage.googleapis.com/v0/b/realtime-cnn.appspot.com/o/5H9A8831%20(4).jpg?alt=media&token=2a2472d8-9db6-4d97-be35-242980faa169'
+        }
+        alt="wedding"
+        className="w-full max-h-[540px] object-cover object-center"
+      />
       <div
         className="absolute z-10 top-[50%] left-[50%] w-full bg-slate-700 py-[500px]"
         style={{
